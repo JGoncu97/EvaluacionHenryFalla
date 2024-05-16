@@ -1,7 +1,76 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #1293D4;
+}
+
 .titulo{
     display: flex;
     background-color: #24282B;
     justify-content: space-around;
+   font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.h1_ultipedia{
+    color:#1293D4;
+}
+
+.titulo nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.titulo nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.titulo nav ul li{
+    list-style: none;
+}
+
+.titulo nav{
+    align-content: center;
+}
+
+.cuerpo{
+    background-color: #1293D4;
+}
+
+.cabeceraInicio{
+    display: flex;
+    background-color: #24282B;
+    justify-content: center;
+    margin: 5px 0px 0px 0px;
+}
+.cabeceraInicio img{
+    width: 80%;
+    height: 550px;
     
 }
 
+.SubCuerpo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    background-color: #24282B;
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px;
+    z-index: 999;
+}
+
+.SubCuerpo form{
+    align-content: center;
+    margin: 0px;
+}
+.SubCuerpo input{
+    padding: 5px 70px 5px 5px;
+}
+
+.SubCuerpo button{
+background-color: orangered;
+color: white;
+padding: 10px;
+border-style: none;
+}
