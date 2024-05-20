@@ -10,9 +10,13 @@ body{
     justify-content: space-around;
    font-family: Arial, Helvetica, sans-serif;
     color: white;
+    margin: 0px 0px 5px 0px;
 }
 .h1_ultipedia{
     color:#1293D4;
+}
+.botonInicio{
+    color: #1293D4;
 }
 
 .titulo nav ul li a{
@@ -39,16 +43,30 @@ body{
 }
 
 .cabeceraInicio{
+    background-image: url(/assets/cabecera4.jpg);
     display: flex;
-    background-color: #24282B;
+    height: 460px;
+    width: 100%;
     justify-content: center;
-    margin: 5px 0px 0px 0px;
+    align-items: center; 
+    flex-wrap:wrap ;
+    background-size: cover;
 }
-.cabeceraInicio img{
-    width: 80%;
-    height: 550px;
-    
+
+.contenidoCabecera{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
+.contenidoCabecera h3{
+    font-size: 50px;
+}
+
+.contenidoCabecera p{
+    font-size: 20px;
+    width: 1700px;
+}
+
 
 .SubCuerpo{
     font-family: Arial, Helvetica, sans-serif;
@@ -73,4 +91,58 @@ background-color: orangered;
 color: white;
 padding: 10px;
 border-style: none;
+}
+
+.finalCuerpo{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: white;
+    height: 270px;
+    width: auto;
+    align-items: center;
+
+
+}
+
+
+.finalCuerpo p{
+    text-align: center;
+    width: 300px;
+    height: auto;
+}
+
+.finalCuerpo h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.tablero1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 0px;
+    height: auto;
+    
+}
+
+.tablero1 h3{
+    margin: 10px 10px 5px 10px;
+}
+
+.tablero1 img{
+    height: 80px;
+    width: 80px;
+;
+  
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 100%;
 }
