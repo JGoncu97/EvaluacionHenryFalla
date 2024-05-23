@@ -250,9 +250,10 @@ width: 900px;
     width: 380px;
     height: 200px;
     margin-bottom: 380px;
-    margin-right: 100px;
+    margin-right: 150px;
     align-items: center;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -263,7 +264,7 @@ width: 380px;
 height: 200px;
 align-items: center;
 padding: 20px;
-margin-bottom: 380px;
+margin-bottom: 430px;
 margin-right: 100px;
 font-family: Arial, Helvetica, sans-serif;
 }
